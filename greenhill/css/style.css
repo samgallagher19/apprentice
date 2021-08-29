@@ -1,5 +1,23 @@
+html{
+  padding-top: 0px;
+}
 body {
   background-color: powderblue;
+  padding: 0px;
+  margin: 0px;
+
+}
+.top {
   background-image: url("../images/church.jpg");
   background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 0px;
+  min-height: 300px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+h1 {
+  padding-top: 0px;
+  margin-top: 0px;
 }
