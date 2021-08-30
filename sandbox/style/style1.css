@@ -1,0 +1,65 @@
+body {
+  background-color: MediumTurquoise;
+}
+
+a:link {
+  color: springgreen;
+}
+
+a:visited {
+  color: fuchsia;
+}
+
+a:active {
+  color: indigo;
+  background-color: blue;
+}
+
+#email-button:link, #email-button:visited {
+  background-color: hsl(180, 100%, 50%);
+  color: black;
+  padding: 15px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#email-button:hover, #email-button:active {
+  background-color: hsl(180, 100%, 80%);
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-item {
+  float: left;
+}
+
+.navbar-link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  border-right: 2px solid black;
+}
+
+.navbar-link:hover {
+  background-color: darkseagreen;
+}
+
+.navbar-link:visited {
+  color: white;
+}
+
+.active {
+  background-color: darkolivegreen;
+}

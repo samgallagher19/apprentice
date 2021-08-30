@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <link rel="stylesheet" href="style/style1.css">
+   <style>
+     body{ 
+       font-family: courier;
+     }
+   </style>
+   <!-- The below line defines the character set -->
+   <meta charset="utf-8">
+   <title>My CSS Page</title>
+</head>
+<!--<body style="background-image: url('pictures/brookejojo.jpg'); background-size:cover; background-attachment: fixed;">-->
+<body>
+<h1>CSS Information</h1>
+<p>Jump back to <a href="index.html">HTML information page</a></p>
+
+<h2>CSS Practice</h2>
+
+<p style="color:blue;">Set the text color to blue using style="color: blue;"</p>
+
+<p style="font-family: impact;"> Set the font with style="font-family: impact;"</p>
+
+<p style="font-size: 160%;"> Set the font size with style="font-size: 160%;"</p>
+
+<p style="border: 4px solid powderblue;"> Set the border with style="border: 4px solid powderblue;" </p>
+
+<p style="border: 4px solid powderblue; padding: 30px;"> Set the border with style="padding: 30px;" </p>
+
+<p style="border: 4px solid powderblue; margin: 50px;"> Set the border with style="margin: 50px;" </p>
+
+<div>
+<p style="background-color: red"><img src="pictures/shep.jpg" style="float:left; width: 20px"> This is a picture of Shep displayed to the left using float:left css.</p>
+</div>
+
+<div>
+<p style="background-color: blue;"><img src="pictures/shep.jpg" style="float:right; width: 20px"> This is a picture of Shep displayed to the left using float:right css.</p>
+</div>
+
+<img src="pictures/samshep.jpg" style="width: 200px;" alt="Sam and Shep" usemap="#samshepmap">
+<map name="samshepmap">
+<area shape="circle" coords="50, 120, 40" href="#" onclick="myFunction()">
+<area shape="circle" coords="135, 95, 30" href="#" onclick="myFunction2()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked on Sam's face!");
+}
+function myFunction2() {
+  alert("You clicked on Shep's face!");
+}
+</script>
+
+</body>
+</html>
