@@ -1,5 +1,6 @@
 body {
   background-color: MediumTurquoise;
+  margin: 0;
 }
 
 a:link {
@@ -37,6 +38,7 @@ a:active {
   position: fixed;
   top: 0;
   width: 100%;
+
 }
 
 .navbar-item {
@@ -62,4 +64,10 @@ a:active {
 
 .active {
   background-color: darkolivegreen;
+}
+
+h1 {
+  margin-top: 50px;
+  background-color:tomato;
+  font-family: courier;
 }
