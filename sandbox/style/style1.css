@@ -55,6 +55,10 @@ a:active {
   border-right: 2px solid black;
 }
 
+.navbar-link:link {
+  color: white;
+}
+
 .navbar-link:hover {
   background-color: darkseagreen;
 }
