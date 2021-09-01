@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <link rel="stylesheet" href="style/style1.css">
+   <!-- The below line defines the character set -->
+   <meta charset="utf-8">
+   <title>My HTML Documentation Page</title>
+</head>
+<body>
+<ul id="navbar">
+    <li class="navbar-item"> <a class="navbar-link" href="index.html">Home</a> </li>
+    <li class="navbar-item"> <a class="navbar-link" href="mycss.html">CSS Page</a> </li>
+    <li class="navbar-item"> <a class="navbar-link" href="mypictures.html">Pictures Page</a> </li>
+	<li class="navbar-item"> <a class="navbar-link" href="grid.html">Grid Page</a> </li>
+	<li class="active navbar-item"> <a class="navbar-link" href="htmldoc.html">HTML Documentation</a> </li>
+  </ul>
+
+
+  <div class="main-grid">
+    <header>
+		<h1>My HTML Documentation Page</h1>
+	</header>
+	<div class="grid-image">
+	  <img src="pictures/sambrookepic.jpg" alt="Sam and Brooke">
+	</div>
+	<main>
+	  <h2> Main Content </h2>
+	  <div class="main-info" id="header-tags">
+	  <p> Header tags 1-6 are valid html elements </p>
+	  <p> h1 defines the most important heading, h6 defines the least important heading</p>
+	  <h1>Header 1</h1>
+	  <h2>Header 2</h2>
+	  <h3>Header 3</h3>
+	  <h4>Header 4</h4>
+	  <h5>Header 5</h5>
+	  <h6>Header 6</h6>
+	  </div>
+	  <div class="main-info" id="paragraph-tags">
+	  <p> Paragraph < p > tags wrap around a block of text</p>
+	  <p> Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. </p>
+	  </div>
+	  <div class="main-info" id="link-tags">
+		<p>Link tags use < a src=""> syntax.</p>
+		<ul>
+			<li> Link to another page on this site: <a href="mycss.html">CSS information page</a> </li>
+			<li> Link to a section on another page on this site: <a href="index.html#links">Helpful links</a> </li>
+			<li> Link to another section on this page: <a href="#header-tags">Header Tags</a> </li>
+			<li> Link to another external website: <a href="https://www.google.com">Google</a> </li>
+			<li> Link to another external website in a new tab using target="_blank": <a href="https://www.google.com" target="_blank">Google</a> </li>
+		</ul>
+	  </div>
+	</main>
+	<aside>
+	  <h2> Sidebar </h2>
+	  <ul>
+	  <li> <a href="#header-tags">Header Tags</a> </li>
+	  <li> <a href="#paragraph-tags">Paragraph Tags</a> </li>
+	  <li> <a href="#paragraph-tags">Link Tags</a> </li>
+	  <ul>
+	</aside>
+	<footer>
+	  <p>Thanks for visiting my CSS Grid Page!
+	</footer>
+  </div>
+
+</body>
+</html>
