@@ -4,9 +4,15 @@
    <link rel="stylesheet" href="style/style1.css">
    <!-- The below line defines the character set -->
    <meta charset="utf-8">
+   <meta name="author" content="Sam Gallagher">
+   <meta name="description" content="Sam's HTML Notes">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>My HTML Documentation Page</title>
+   <script src="javascript/script.js"></script>
+   <noscript>Sorry, your browser does not support JavaScript!</noscript>
 </head>
 <body>
+  <nav>
 <ul id="navbar">
     <li class="navbar-item"> <a class="navbar-link" href="index.html">Home</a> </li>
     <li class="navbar-item"> <a class="navbar-link" href="mycss.html">CSS Page</a> </li>
@@ -14,6 +20,7 @@
 	<li class="navbar-item"> <a class="navbar-link" href="grid.html">Grid Page</a> </li>
 	<li class="active navbar-item"> <a class="navbar-link" href="htmldoc.html">HTML Documentation</a> </li>
   </ul>
+</nav>
 
 
   <div class="main-grid">
@@ -48,6 +55,26 @@
 			<li> Link to another external website: <a href="https://www.google.com">Google</a> </li>
 			<li> Link to another external website in a new tab using target="_blank": <a href="https://www.google.com" target="_blank">Google</a> </li>
 		</ul>
+	  </div>
+    <div class="main-info" id="iframes">
+		<p>iFrames</p>
+    <iframe src="https://www.atptour.com" title="My Pictures"></iframe>
+    <p>Hello</p>
+	  </div>
+    <div class="main-info" id="javascript">
+		<p>JavaScript</p>
+    <p id="change_content">This content will change if you click the button below. The change is enabled through Javascript.</p>
+    <button onclick="changeContent()">Change Content</button>
+
+	  </div>
+    <div class="main-info" id="forms-php">
+		<p>Forms with php</p>
+    <form action="welcome_get.php" method="get">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+    </form>
+
 	  </div>
 	</main>
 	<aside>
