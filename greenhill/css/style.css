@@ -24,4 +24,37 @@ h1 {
 footer {
   background-color: black;
   height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footlinks {
+  margin: 0px 30px;
+  text-decoration: none;
+  color: white;
+}
+.main_buttons {
+  display:grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". b1 b2 ."
+    ". b3 b4 .";
+
+}
+.mbutton {
+  display: block;
+}
+#b1 {
+  grid-area: b1;
+}
+#b2 {
+  grid-area: b2;
+}
+#b3 {
+  grid-area: b3;
+}
+#b4 {
+  grid-area: b4;
 }
